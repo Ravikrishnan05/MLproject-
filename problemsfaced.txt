@@ -1,0 +1,37 @@
+# Split into training and test sets
+user_train, user_test, article_train, article_test, y_train, y_test = train_test_split(
+    user_features_scaled, 
+    article_features_scaled, 
+    interaction_scaled.flatten(),  # Flatten for single-dimension target
+    train_size=0.8, 
+    random_state=42
+)
+
+here the 
+user_features_scaled has 100 samples.
+article_features_scaled has 500 samples.
+interaction_scaled.flatten() has 50000 samples.
+so 80 percent split didnt happen
+
+
+modified version
+
+user_train, user_test= train_test_split(
+    user_features_scaled, 
+    train_size=0.8, 
+    random_state=42
+)
+
+article_train, article_test= train_test_split(
+    article_features_scaled, 
+    train_size=0.8, 
+    random_state=42
+)
+
+y_train, y_test = train_test_split(
+    interaction_scaled.flatten(),  # Flatten for single-dimension target
+    train_size=0.8, 
+    random_state=42
+)
+
+

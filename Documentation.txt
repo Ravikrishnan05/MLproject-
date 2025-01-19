@@ -4,8 +4,15 @@ User Features:
 User ID (for tracking, not training)
 User's average preference for each category (e.g., Sports, Technology)
 Interaction history (e.g., articles clicked, read time)
+
 Item (Article) Features:
 Article ID (for tracking, not training)
 Metadata (e.g., publish year, author)
 Content features (e.g., keywords, categories as one-hot vectors)
 Engineered features like average user ratings or popularity
+
+Target:
+Interaction score (e.g., user rating, click count, time spent).
+
+
+what it mean by training the NN ?
