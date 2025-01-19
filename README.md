@@ -73,15 +73,6 @@ pip install tensorflow transformers requests pandas numpy scikit-learn
 5. **Evaluate the Model**:
    - The script includes evaluation metrics to test the model's performance on test data.
 
-### Example Output
-
-- **Recommended Articles**:
-  - For user 0, the top 5 articles could be:
-    - "Breaking News: Tech Giant Acquires Startup"
-    - "Sports Highlights of the Week"
-    - "Medical Breakthrough: New Treatment Announced"
-    - "Top Gadgets to Watch in 2025"
-    - "Fitness Trends for a Healthier Life"
 
 ### Notes
 - You can customize the categories in the `candidate_labels` variable to align with your requirements.
