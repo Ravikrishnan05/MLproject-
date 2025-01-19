@@ -72,6 +72,10 @@ pip install tensorflow transformers requests pandas numpy scikit-learn
 
 5. **Evaluate the Model**:
    - The script includes evaluation metrics to test the model's performance on test data.
+  
+### Team members
+- Ravikrishnan
+- Sanjay 
 
 
 ### Notes
